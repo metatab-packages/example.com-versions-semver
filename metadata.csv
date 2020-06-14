@@ -1,0 +1,35 @@
+Declare,metatab-latest
+Title,Example of Incrementing Semantic Versions
+Description,
+Identifier,36dbcb26-bb73-4015-b0b5-bfdb7489669a
+Name,example.com-versions-semver-1.2.7
+Dataset,versions
+Origin,example.com
+Time,
+Space,
+Grain,
+Variant,semver
+Version,1.2.7
+Version.Major,1
+Version.Minor,2
+Version.Patch,7
+Created,2020-03-25T15:46:50
+Modified,2020-06-14T22:43:37
+Giturl,https://github.com/metatab-packages/metatab-packages.git
+
+Section,Contacts,Email,Organization,Url,
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
+
+Section,Documentation,Title,Description,,
+Documentation,file:README.md,README,,,
+
+Section,References,Name,Description,,
+
+Section,Resources,Name,Description,,
+Datafile,python:pylib#row_generator,data,Generated Data,,
+
+Section,Schema,DataType,AltName,Description,Has_Codes
+Table,data,,,,
+Table.Column,a,integer,,,
+Table.Column,b,integer,,,
+Table.Column,c,number,,,
